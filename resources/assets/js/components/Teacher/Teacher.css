@@ -1,0 +1,185 @@
+
+#profile_img{
+    max-height: 70px;
+    border-radius:50%;
+    margin-top:100px
+}
+
+.profile_card{
+    background:rgba(0, 0, 0, .6), url('../../../images/profile_cover.jpg');
+    background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.4))),url(../../../images/profile_cover.jpg);
+    background:-webkit-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../../../images/profile_cover.jpg);
+    background:-o-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../../../images/profile_cover.jpg);
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../../../images/profile_cover.jpg);
+    background-blend-mode:darken;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position-y:-90px
+}
+
+
+.profile-edit{
+    margin-top:-40px;
+    color:#fff;
+    text-align:right
+}
+.checklist-todo{
+    list-style:none;
+}
+.checklist-done{
+    text-decoration:line-through
+}
+.subject-1{
+    background-color:#ff9800
+}
+.subject-2{
+    background-color:#2196f3
+}
+.portfolio-1{
+    background-color:#00bcd4
+}
+.course-summary-text{
+    text-align:center
+}
+.course-message-text-head,.course-summary-text{
+    font-size:24px!important
+}
+.course-summary-text-small{
+    font-size:16px!important;
+    margin:5px;
+}
+
+.dot-pass-good{
+    background-color:#ffc107
+}
+.dot-pass-fail{
+    background-color:#e9311e
+}
+.dot-pass-excellent,.dot-pass-good,.dot-pass-fail{
+    height:16px;
+    width:16px;
+    border-radius:50%;
+    display:inline-block;
+    margin-left:3px;
+    margin-top:3px
+}
+.dot-pass-excellent{
+    background-color:#8bc34a
+}
+.weekly-learning{
+    text-align:center
+}
+.weekly-learning-button{
+    font-size:200px
+}
+.recent-messages-text{
+    background-color:#eee;
+    padding:10px
+}
+.homeroom-summary-text{
+    font-size:24px!important;
+    margin:8px
+}
+.homeroom-dot-pass-good{
+    height:18px;
+    width:18px;
+    background-color:#ffc107;
+    border-radius:50%;
+    display:inline-block;
+    margin-left:4px;
+    margin-top:8px
+}
+
+.homeroom-dot-pass-excellent{
+    height:18px;
+    width:18px;
+    background-color:#8bc34a;
+    border-radius:50%;
+    display:inline-block;
+    margin-left:4px;
+    margin-top:8px
+}
+.homeroom-resources{
+    margin:8px
+}
+.homeroom-resource-title{
+    font-size:21px!important
+}
+.homeroom-resource-subtitle{
+    font-size:18px!important;
+    color:#f44336
+}
+.homeroom-resource-card{
+    text-align:center;
+    cursor:pointer
+}
+.homeroom-resource-img{
+    margin:15px;
+    max-width: 200px;
+}
+.course-big-buttons{
+    width: 250px !important;
+    height: 80px !important;
+    font-size: 18px !important;
+    border-radius: 22px !important;
+    background: #bb86fc !important;
+margin:5px !important;
+}
+
+.course-big-buttons-red{
+    max-width: 400px !important;
+    height: 80px !important;
+    font-size: 18px !important;
+    border-radius: 22px !important;
+    background: #e91e63 !important;
+margin:5px !important;
+}
+
+.big-button-container{
+    text-align: center;
+}
+.course-summary-center{
+    text-align: center;
+}
+.portfolio-draft{
+    background-color: #f5f5f5;
+    cursor: pointer;
+    padding:10px
+}
+.portfolio-draft:hover{
+    background-color: #03a9f4;
+    color:white;
+    cursor: pointer;
+}
+.nav_item_homeroom{
+    color:#ff9800 !important;
+}
+.nav_item_robotics{
+    color:#03A9F4 !important;
+}
+#root > div > div > nav > header{
+    height: 30%;
+}
+.card-title-black{
+    color: black !important;
+}
+#root > div > div > nav > header{
+    background:rgba(0, 0, 0, .6),url('../../../images/profile_cover.jpg');
+    background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.4))),url(../../../images/profile_cover.jpg);
+    background:-webkit-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../../../images/profile_cover.jpg);
+    background:-o-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../../../images/profile_cover.jpg);
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../../../images/profile_cover.jpg);
+    background-blend-mode:darken;
+
+}
+.profile-name{
+    font-weight: bold;
+    color: white;
+}
+
+.profile-mail{
+    color: white;
+}
+#root > div > div > nav > header > div.md-cell--right.md-toolbar--action-right > button > i{
+    color: white;
+}
