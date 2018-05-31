@@ -13,7 +13,7 @@ class CreateTeacherAssignmentsTable extends Migration
      */
     public function up()
     {
-        Schema::create('teacher_assignments', function (Blueprint $table) {
+        Schema::create('yoda_teacher_assignments', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->integer('created_by_user_id');

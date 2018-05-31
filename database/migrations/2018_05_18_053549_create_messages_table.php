@@ -13,7 +13,7 @@ class CreateMessagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('messages', function (Blueprint $table) {
+        Schema::create('yoda_messages', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->integer('user_id');

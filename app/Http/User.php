@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Authenticatable implements JWTSubject
 {
     use Notifiable;
+    protected $table = 'yoda_users';
     /**
      * The attributes that are mass assignable.
      *

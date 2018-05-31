@@ -13,7 +13,7 @@ class CreateSignOnPagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('sign_on_pages', function (Blueprint $table) {
+        Schema::create('yoda_sign_on_pages', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->text('url');

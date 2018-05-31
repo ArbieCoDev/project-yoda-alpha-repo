@@ -13,7 +13,7 @@ class CreateTodosTable extends Migration
      */
     public function up()
     {
-        Schema::create('todos', function (Blueprint $table) {
+        Schema::create('yoda_todos', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->integer('user_id');

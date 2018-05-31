@@ -13,7 +13,7 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('yoda_users', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->integer('infocenter_id');

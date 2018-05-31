@@ -13,7 +13,7 @@ class CreateStudentQuizzesTable extends Migration
      */
     public function up()
     {
-        Schema::create('student_quizzes', function (Blueprint $table) {
+        Schema::create('yoda_student_quizzes', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->integer('user_id');

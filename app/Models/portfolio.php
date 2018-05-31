@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class portfolio extends Model
 {
-    //
+    protected $table = 'yoda_portfolios';
 }

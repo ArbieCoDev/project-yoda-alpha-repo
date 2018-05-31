@@ -13,7 +13,7 @@ class CreatePortfoliosTable extends Migration
      */
     public function up()
     {
-        Schema::create('portfolios', function (Blueprint $table) {
+        Schema::create('yoda_portfolios', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->integer('user_id');

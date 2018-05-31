@@ -6,5 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Files extends Model
 {
+    protected $table = 'yoda_files';
     //
 }
