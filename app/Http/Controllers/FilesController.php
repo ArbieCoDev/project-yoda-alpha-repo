@@ -8,7 +8,7 @@ use App\Models\Files;
 class FilesController extends Controller
 {
     public function index(){
-        echo  url('/');
+        echo 'files';
     }
 
     public function upload(Request $request){

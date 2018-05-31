@@ -41,4 +41,12 @@ Route::group(['middleware' => 'api-header'], function () {
 
     Route::get('files/index','FilesController@index');
     Route::post('files/upload','FilesController@upload');
+
+    Route::get('courses/index','CoursesController@index');
+    Route::get('assignments/index','AssignmentsController@index');
+    Route::get('quizzes/index','QuizzesController@index');
+    Route::get('projects/index','ProjectsController@index');
+    Route::get('grades/index','GradesController@index');
+    Route::get('messages/index','MessagesController@index');
+    Route::get('profile/index','ProfileController@index');
 });
